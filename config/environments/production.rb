@@ -12,7 +12,7 @@ Rails.application.configure do
 
   # Setting mail
   config.action_mailer.delivery_method = :smtp
-  config.action_mailer.default_url_options = { :host => 'yodo-photo-app.herokuapp.com', :protocol => 'https'}
+  config.action_mailer.default_url_options = { :host => 'yodo-photo-app-2.herokuapp.com', :protocol => 'https'}
 
   # Full error reports are disabled and caching is turned on.
   config.consider_all_requests_local       = false
@@ -113,4 +113,5 @@ Rails.application.configure do
   # config.active_record.database_selector = { delay: 2.seconds }
   # config.active_record.database_resolver = ActiveRecord::Middleware::DatabaseSelector::Resolver
   # config.active_record.database_resolver_context = ActiveRecord::Middleware::DatabaseSelector::Resolver::Session
+
 end
