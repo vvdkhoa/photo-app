@@ -72,4 +72,4 @@ end
 
 # Error
 gem 'jquery-rails'
-gem 'turbolinks'
+# gem 'turbolinks'
