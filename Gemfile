@@ -30,7 +30,10 @@ gem 'devise-bootstrap-views'
 gem 'twitter-bootstrap-rails'
 # Payment
 gem 'stripe'
-
+# Upload picture
+gem 'carrierwave'
+gem 'mini_magick'
+gem 'fog-aws'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
